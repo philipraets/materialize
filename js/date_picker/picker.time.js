@@ -372,7 +372,9 @@
 	ClockPicker.DEFAULTS = {
 		'default': '',         // default time, 'now' or '13:14' e.g.
 		fromnow: 0,            // set default time to * milliseconds from now (using with default = 'now')
-		donetext: 'Done',      // done button text
+		donetext: 'Ok',      // done button text
+		cleartext: 'Clear',
+		canceltext: 'Cancel',
 		autoclose: false,      // auto close when minute is selected
 		ampmclickable: true,  // set am/pm button on itself
 		darktheme: false,			 // set to dark theme
